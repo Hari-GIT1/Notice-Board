@@ -43,5 +43,9 @@ export class ViewComponent implements OnInit {
 
     });
   }
+  back(){
+    this.router.navigateByUrl("/")
+  }
+  
     
 }
